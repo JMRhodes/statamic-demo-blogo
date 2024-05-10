@@ -15,7 +15,6 @@
         "statamic/cms": "^5.0"
     },
     "require-dev": {
-        "afan417/blogo-starter-kit": "^1.2",
         "barryvdh/laravel-debugbar": "^3.8.1",
         "fakerphp/faker": "^1.23",
         "laravel/pint": "^1.13",
