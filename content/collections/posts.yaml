@@ -1,0 +1,22 @@
+title: Posts
+template: posts/show
+layout: layout
+mount: 8e677c57-ebe8-4422-bbf8-cddcc4a0c2d6
+taxonomies:
+  - categories
+revisions: false
+route: '/{mount}/{slug}'
+date: true
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
+  -
+    label: Archive
+    url: '{mount}'
+    refresh: true

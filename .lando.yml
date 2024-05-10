@@ -1,0 +1,9 @@
+name: blogo
+recipe: laravel
+config:
+  webroot: ./public
+  via: nginx
+  xdebug: false
+  php: '8.3'
+  cache: redis
+  composer_version: 2-latest
