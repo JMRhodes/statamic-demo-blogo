@@ -1,9 +1,10 @@
 title: Pages
-template: pages/show
+template: '@blueprint'
 layout: layout
-revisions: false
+revisions: true
 route: '{parent_uri}/{slug}'
 sort_dir: asc
+default_status: draft
 preview_targets:
   -
     label: Entry
