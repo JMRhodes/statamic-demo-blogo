@@ -26,15 +26,16 @@ return [
     'indexes' => [
 
         'default' => [
-            'driver' => 'local',
+            'driver'      => 'local',
             'searchables' => 'all',
-            'fields' => ['title'],
+            'fields'      => [ 'title' ],
         ],
 
-        // 'blog' => [
-        //     'driver' => 'local',
-        //     'searchables' => 'collection:blog',
-        // ],
+         'blog' => [
+             'driver' => 'local',
+             'searchables' => 'collection:posts',
+             'fields' => ['title'],
+         ],
 
     ],
 
