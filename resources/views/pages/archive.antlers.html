@@ -2,6 +2,11 @@
     {{ partial:components/heading size="h2" :label="title" center="true" }}
 </div>
 
+<!-- Desktop Search -->
+<div>
+    {{ livewire:search template="partials.search" index="blog" }}
+</div>
+
 <div class="container py-8 md:py-12">
     {{ collection :from="mount" paginate="9" as="posts" }}
         {{ if no_results }}

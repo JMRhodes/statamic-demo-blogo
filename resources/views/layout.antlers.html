@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{{ settings:site_name }} {{ title ?= '- {title}'}}</title>
         {{ partial:partials/seo }}
+
+        {{ livewire:styles }}
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
 
@@ -15,5 +17,7 @@
         {{ template_content }}
 
         {{ partial:layout/footer }}
+
+        {{ livewire:scripts }}
     </body>
 </html>
